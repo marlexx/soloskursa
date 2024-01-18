@@ -1,5 +1,3 @@
-import React from 'react'
-
 function PicFrame() {
   return (
     <div className='picFrame'>
