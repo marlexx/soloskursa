@@ -1,0 +1,121 @@
+.card {
+    aspect-ratio: 4/10;
+    height: 80vh;
+    width: auto;
+    margin-top: 10vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 40px 40px 80px 40px #2f2d4977;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.picFrame {
+    margin: 0;
+    aspect-ratio: 1/1;
+}
+
+.mainBody {
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.mainBody > h1, .mainBody > h5, .mainBody > a {
+    margin: 0;
+}
+
+.mainBody > h5 {
+    color: #8e9e29;
+}
+
+.mainBody > a {
+    font-size: 10px;
+    color: #8e9e29;
+}
+
+.footer {
+    margin: 0;
+    height: 10%;
+    background-color: #161619;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer > img {
+    margin-left: 10px;
+    margin-right: 10px;
+    transition-duration: 0.4s;
+}
+
+.footer > img:hover {
+    background-color: #8e9e298a;
+    box-shadow: 4px 4px 8px 4px #8e9e298a;
+}
+
+.profilePic {
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.buttonDiv > button {
+    border: none;
+    width: 30%;
+    height: 34px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+.buttonDiv > button:hover {
+    background-color: #8e9e29;
+    color: white;
+}
+
+.mailButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: rgb(63, 63, 63);
+}
+
+.lnButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4a65ff;
+    color: white;
+}
+
+.mailButton img,
+.lnButton img {
+  margin-right: 9px;
+}
+
+.about {
+    padding: 30px;
+    text-align: left;
+}
+
+.about > p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.about > h1 {
+    margin: 0;
+    margin-top: 10px;
+}
