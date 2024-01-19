@@ -26,7 +26,12 @@
     margin: 0;
 }
 
+h1 {
+    font-size: 2.2vh;
+}
+
 .mainBody > h5 {
+    font-size: 1vh;
     color: #d3e945;
 }
 
